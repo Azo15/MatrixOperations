@@ -4,7 +4,7 @@ public class MatrixOperations {
 
     // Görev 1: Matris Çarpımı
     public static int[][] multiplyMatrices(int[][] matrix1, int[][] matrix2) {
-        int rows1 = matrix1.length;
+        int rows1 = matrix1.length; 
         int cols1 = matrix1[0].length;
         int cols2 = matrix2[0].length;
         int[][] result = new int[rows1][cols2];
